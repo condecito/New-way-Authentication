@@ -1,0 +1,16 @@
+Español : 
+  Ya que es mi idioma nativo tratare de explicar un poco de como funciona.
+  
+ La idea consiste en generar en una app indenpendiente un Hash que se setee como contraseña para el proximo ingresa para app principal 
+ la app principal contara con un metodo para generar hash de tipo dd-MM-yy HH:mm:ss ss a-z{8} el cual comparara este hash generado en la app principal 
+ con el hash generado en la app externa.
+ 
+ Dicho de otra manera : sera un metodo de contraseñas nueva para cada ingreso, se predefinirá previmanete para su posterior ingreso 
+ 
+ 
+ 
+ preingreso:-----------------06-06-2022 07:54:55 972 palabra1 ----------> hash(sha1)---------------------------------------DB
+ IngresoPrincipal ---------  xx-xx-xxxx xx:xx:xx xxx xxxxxxxxxxxxx---------------comparar-preingreso------------------>access
+ 
+ 
+ 
